@@ -1301,7 +1301,7 @@
 			<key>SCRCInvertedTCommanderCaptureEnabled</key>
 			<true/>
 			<key>SCRCKeyboardCommanderEnabled</key>
-			<false/>
+			<true/>
 			<key>SCRCTrackpadCommanderEnabled</key>
 			<false/>
 			<key>SCRCTrackpadCommanderTextTrackingMode</key>
@@ -1488,7 +1488,7 @@
 			<key>SCRCategories_SCRCategorySystemWide_SCRNumberMode</key>
 			<string>SCRNumberModeWholeWords</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRPositionalAudioEnabled</key>
-			<true/>
+			<false/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSoundComponentSettings_SCRDisableSound</key>
 			<false/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechComponentSettings_SCRDisableSpeech</key>
@@ -1542,7 +1542,7 @@
 			<key>SCRShouldOutputVOInstructions</key>
 			<false/>
 			<key>SCRSpeechAttributeRotorLastRotor</key>
-			<integer>0</integer>
+			<integer>4</integer>
 			<key>SCRSpeechSettings_SCRCustomizedLanguageIDs</key>
 			<array>
 				<string>nl</string>
@@ -1643,21 +1643,23 @@
 			<key>custom.hotspots.SCRHotSpot-1</key>
 			<dict>
 				<key>Active</key>
-				<false/>
+				<true/>
 				<key>AppKey</key>
 				<string>com.apple.Safari</string>
 				<key>AppName</key>
 				<string>Safari</string>
 				<key>Description</key>
-				<string>Press VO-A, or flick up with two fingers. You don’t</string>
+				<string>SharePoint</string>
 				<key>Frame</key>
 				<data>
-				AAAAAAAAAAAAAAAAAHiFQAAAAAAAAHlAAAAAAACARUA=
+				AAAAAAAAAAAAAAAAAECAQAAAAAAAgEdAAAAAAAAASEA=
 				</data>
+				<key>IndexPath</key>
+				<string>[0.0.1.0.0.0.0.3.0.0.0.8.0]</string>
 				<key>Role</key>
-				<string>AXStaticText</string>
+				<string>AXLink</string>
 				<key>Type</key>
-				<string>text</string>
+				<string>link</string>
 			</dict>
 			<key>custom.hotspots.SCRHotSpot-4</key>
 			<dict>
@@ -1909,6 +1911,26 @@
 				<key>SCRSubTextKey</key>
 				<string>SCRUserSubstitution.qty</string>
 			</dict>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0047</key>
+			<string>SCRWorkspace.doNothing</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0048</key>
+			<string>SCRWorkspace.doNothing</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_004a</key>
+			<string>Global.findPreviousHeading</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_004e</key>
+			<string>SCRWorkspace.doNothing</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0065</key>
+			<string>Global.interactUp</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0067</key>
+			<string>SCRWorkspace.doNothing</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0068</key>
+			<string>Global.interactLeft</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0069</key>
+			<string>Global.interactRight</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_006a</key>
+			<string>Global.findNextHeading</string>
+			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_006e</key>
+			<string>Global.interactDown</string>
 			<key>custom.trackpads.SCRCTrackpadCommanderEnabled-144115188075855918</key>
 			<false/>
 			<key>custom.trackpads.SCRCTrackpadCommanderEnabled-144115188075855919</key>
