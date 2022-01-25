@@ -5,9 +5,9 @@
 	<key>ArchiveType</key>
 	<integer>1</integer>
 	<key>ArchiveVersion</key>
-	<string>804</string>
+	<string>815</string>
 	<key>ArchiveVersionOS</key>
-	<string>120000</string>
+	<string>120100</string>
 	<key>ArchiveVersionVO</key>
 	<integer>4</integer>
 	<key>export</key>
@@ -1291,6 +1291,36 @@
 		</array>
 		<key>common</key>
 		<dict/>
+		<key>custom.userlabels</key>
+		<dict>
+			<key>com.apple.Safari</key>
+			<array>
+				<dict>
+					<key>ApplicationName</key>
+					<string>Safari</string>
+					<key>Identifier</key>
+					<string>StartPageCollectionView</string>
+					<key>Rect</key>
+					<string>{{0, 0}, {1168, 602}}</string>
+					<key>Role</key>
+					<string>AXList</string>
+					<key>SCRElementDictionaryApplication</key>
+					<string>com.apple.Safari</string>
+					<key>SCRElementDictionaryDescription</key>
+					<string>StartPage</string>
+					<key>SCRElementDictionaryID</key>
+					<string>1536156908.663962586.943795</string>
+					<key>SCRElementDictionaryImageURL</key>
+					<string>/var/folders/h9/schnzwfd6c11f2stybz7hc740000gn/T/voiceoverImageDictionaryImage.1642269786.png</string>
+					<key>SCRElementDictionaryInProgress</key>
+					<true/>
+					<key>SiblingCount</key>
+					<integer>1</integer>
+					<key>SiblingIndex</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
 		<key>custom.webspots</key>
 		<dict>
 			<key>Webspot.https://support.apple.com/en-gb/guide/voiceover-guide/vo27959/8/web/10.13</key>
@@ -1298,14 +1328,18 @@
 		</dict>
 		<key>default</key>
 		<dict>
-			<key>SCRCInvertedTCommanderCaptureEnabled</key>
+			<key>SCRBrailleMainStatusEnabled</key>
+			<false/>
+			<key>SCRBrailleSingleElementPerLineMode</key>
 			<true/>
+			<key>SCRCInvertedTCommanderCaptureEnabled</key>
+			<false/>
 			<key>SCRCKeyboardCommanderEnabled</key>
 			<true/>
 			<key>SCRCTrackpadCommanderEnabled</key>
 			<false/>
 			<key>SCRCTrackpadCommanderTextTrackingMode</key>
-			<integer>0</integer>
+			<integer>3</integer>
 			<key>SCRCUserDefaultsBrailleAlertTimeoutInSeconds</key>
 			<real>3</real>
 			<key>SCRCUserDefaultsBrailleAutoAdvanceDuration</key>
@@ -1313,13 +1347,22 @@
 			<key>SCRCUserDefaultsBrailleContractionMode</key>
 			<integer>1</integer>
 			<key>SCRCUserDefaultsBrailleEightDotMode</key>
-			<true/>
+			<false/>
 			<key>SCRCUserDefaultsBrailleInputMode</key>
-			<integer>2</integer>
+			<integer>1</integer>
+			<key>SCRCUserDefaultsBrailleMasterStatusCellIndex</key>
+			<integer>-1</integer>
 			<key>SCRCUserDefaultsBrailleOutputMode</key>
-			<integer>2</integer>
+			<integer>1</integer>
+			<key>SCRCUserDefaultsBrailleShowDotsSevenAndEight</key>
+			<false/>
+			<key>SCRCUserDefaultsBrailleTableGuideItems</key>
+			<array>
+				<string>com.apple.scrod.braille.table.duxbury.eng-xueb</string>
+				<string>com.apple.scrod.braille.table.liblouis.nl-nl</string>
+			</array>
 			<key>SCRCUserDefaultsBrailleTableIdentifier</key>
-			<string>com.apple.scrod.braille.table.duxbury.eng-xueb</string>
+			<string>com.apple.scrod.braille.table.liblouis.nl-nl</string>
 			<key>SCRCUserDefaultsBrailleWordWrapEnabled</key>
 			<true/>
 			<key>SCRCUserDefaultsCursorTrackingEnabled</key>
@@ -1329,13 +1372,16 @@
 			<key>SCRCUserDefaultsHasPronunciations</key>
 			<true/>
 			<key>SCRCUserDefaultsImageCaptionLastAssetCatalogUpdateCheck</key>
-			<date>2022-01-09T15:48:40Z</date>
+			<date>2022-01-24T19:49:53Z</date>
 			<key>SCRCUserDefaultsMuteVoiceOver</key>
 			<false/>
 			<key>SCRCUserDefaultsSingleLetterQuickNavEnabled</key>
 			<true/>
 			<key>SCRCUserDefaultsTextSearchHistory</key>
 			<array>
+				<string>hoofdstuk 4</string>
+				<string>hoofdstuk 4</string>
+				<string>Hoofdstuk 4</string>
 				<string>command</string>
 				<string>fast</string>
 				<string>close</string>
@@ -1489,6 +1535,8 @@
 			<string>SCRNumberModeWholeWords</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRPositionalAudioEnabled</key>
 			<false/>
+			<key>SCRCategories_SCRCategorySystemWide_SCRPunctuationVerbosenessLevel</key>
+			<string>SCRPunctuationVerbosenessLevel1</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSoundComponentSettings_SCRDisableSound</key>
 			<false/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechComponentSettings_SCRDisableSpeech</key>
@@ -1504,11 +1552,11 @@
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
 			<true/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRVolumeAsPercent</key>
-			<real>40</real>
+			<real>35</real>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_nl_SCRSpeechComponentSettings_SCRRateAsDefaultLanguageVoiceRateRatio</key>
-			<real>1</real>
+			<real>1.1666666666666667</real>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_nl_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
-			<string>com.apple.speech.synthesis.voice.xander.compact</string>
+			<string>com.apple.speech.synthesis.voice.ellen.premium</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRTableHeadersLevel</key>
 			<string>SCRTableHeadersOn</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRTextAttributesDescriptionLevel</key>
@@ -1524,7 +1572,7 @@
 			<key>SCRCursorTrackingDisabledWhileSelecting</key>
 			<false/>
 			<key>SCRDisplayBrailleEnabled</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>SCRDisplayTextEnabled</key>
 			<false/>
 			<key>SCREnableAppleScript</key>
@@ -1534,7 +1582,7 @@
 			<key>SCROutputAXHelpTag</key>
 			<integer>0</integer>
 			<key>SCRRotorLastRotor</key>
-			<string>SCRElementRotorTypeMovement</string>
+			<string>SCRWebChooserMenuButtons</string>
 			<key>SCRShouldOutputCustomActionRotorHelpTag</key>
 			<integer>1</integer>
 			<key>SCRShouldOutputMoreContentRotorHelpTag</key>
@@ -1542,7 +1590,7 @@
 			<key>SCRShouldOutputVOInstructions</key>
 			<false/>
 			<key>SCRSpeechAttributeRotorLastRotor</key>
-			<integer>4</integer>
+			<integer>5</integer>
 			<key>SCRSpeechSettings_SCRCustomizedLanguageIDs</key>
 			<array>
 				<string>nl</string>
@@ -1551,6 +1599,8 @@
 			<string>SCRTypingEchoWords</string>
 			<key>SCRVerbosityRotorLastRotor</key>
 			<integer>0</integer>
+			<key>SCRVerbosity_SCRBrailleVerbosityLevel</key>
+			<string>SCRVerbosityMedium</string>
 			<key>SCRVerbosity_SCRVerbosityLevel</key>
 			<string>SCRVerbosityHigh</string>
 			<key>SCRVerbosity_StaticText_valueUpdate</key>
@@ -1559,6 +1609,190 @@
 			<string>{{704, -50}, {600, 110}}</string>
 			<key>SCRVoiceOverCursorMagnificationFactor</key>
 			<integer>1</integer>
+			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.SCRCUserDefaultsBrailleDisplayInputIdentifiers</key>
+			<array>
+				<string>67329</string>
+				<string>67585</string>
+				<string>65537</string>
+				<string>65793</string>
+				<string>66305</string>
+				<string>66561</string>
+				<string>65793.68097</string>
+				<string>65537.68097</string>
+				<string>66561.67841</string>
+				<string>66305.67841</string>
+				<string>67841</string>
+				<string>68097</string>
+				<string>68353</string>
+				<string>68609</string>
+				<string>68865</string>
+				<string>69121</string>
+				<string>65536</string>
+				<string>65539</string>
+				<string>65538.67586</string>
+				<string>66306.67586</string>
+				<string>66050.67586</string>
+				<string>66818.67586</string>
+				<string>65794.66050.67586</string>
+				<string>66562.66818.67586</string>
+				<string>65538.65794.66050.67586</string>
+				<string>66306.66562.66818.67586</string>
+				<string>65538.65794.66050.66562.67586</string>
+				<string>65794.66306.66562.66818.67586</string>
+				<string>66050.66818.67586</string>
+				<string>65794.66050.66306.67586</string>
+				<string>66050.66306.66562.67586</string>
+				<string>65538.65794.66818.67586</string>
+				<string>65538.65794.67586</string>
+				<string>65538.66306.66562.67586</string>
+				<string>65538.66562.67586</string>
+				<string>65794.66050.66306.66562.67586</string>
+				<string>65538.65794.66050.66306.66562.66818.67586</string>
+				<string>65538.65794.66050.66306.67586</string>
+				<string>65538.66050.66306.67586</string>
+				<string>65538.66050.67586</string>
+				<string>65538.65794.66050.66306.66818.67586</string>
+				<string>65794.66562.66818.67586</string>
+				<string>65538.65794.66306.67586</string>
+				<string>65538.66050.66818.67586</string>
+				<string>65794.66306.67586</string>
+				<string>65794.66562.67586</string>
+				<string>65538.65794.66562.67586</string>
+				<string>65794.66306.66818.67586</string>
+				<string>65538.66050.66562.67586</string>
+				<string>66050.66306.66562.66818.67586</string>
+				<string>65538.66306.66562.66818.67586</string>
+				<string>66050.66306.67586</string>
+				<string>65794.66050.66818.67586</string>
+				<string>66050.66562.66818.67586</string>
+				<string>65794.67586</string>
+				<string>66562.67586</string>
+				<string>65538.66050.66306.66562.67586</string>
+				<string>65538.65794.66306.66562.67586</string>
+				<string>66306.66562.67586</string>
+				<string>65538.65794.66050.66306.66562.67586</string>
+				<string>65794.66050.66306.66562.66818.67586</string>
+				<string>65794.66050.66562.66818.67586</string>
+				<string>65794.66050.66562.67586</string>
+				<string>65794.66562.66818.67586</string>
+				<string>65536</string>
+				<string>65539</string>
+				<string>65538.67074.67586</string>
+				<string>66306.67074.67586</string>
+				<string>65794.66562.66818.67074.67586</string>
+				<string>65538.66050.66306.67074.67586</string>
+				<string>65538.66050.67074.67586</string>
+				<string>67074.67586</string>
+				<string>67074</string>
+				<string>67330</string>
+				<string>67330.67586</string>
+				<string>66050.67074.67586</string>
+				<string>65794.67074.67586</string>
+				<string>65538.67074.67586</string>
+				<string>66306.67074.67586</string>
+				<string>66562.67074.67586</string>
+				<string>66050.67330.67586</string>
+				<string>65794.67330.67586</string>
+				<string>65538.67330.67586</string>
+				<string>66306.67330.67586</string>
+				<string>66562.67330.67586</string>
+				<string>66562.66818.67330.67586</string>
+				<string>65794.66050.67074.67586</string>
+				<string>65794.66050.66818.67074.67586</string>
+			</array>
+			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.40.blue.SCRCUserDefaultsBrailleDisplayInputIdentifiers</key>
+			<array>
+				<string>67329</string>
+				<string>67585</string>
+				<string>65537</string>
+				<string>65793</string>
+				<string>66305</string>
+				<string>66561</string>
+				<string>65793.68097</string>
+				<string>65537.68097</string>
+				<string>66561.67841</string>
+				<string>66305.67841</string>
+				<string>67841</string>
+				<string>68097</string>
+				<string>68353</string>
+				<string>68609</string>
+				<string>68865</string>
+				<string>69121</string>
+				<string>65536</string>
+				<string>65552</string>
+				<string>65539</string>
+				<string>65555</string>
+				<string>65538.67586</string>
+				<string>66306.67586</string>
+				<string>66050.67586</string>
+				<string>66818.67586</string>
+				<string>65794.66050.67586</string>
+				<string>66562.66818.67586</string>
+				<string>65538.65794.66050.67586</string>
+				<string>66306.66562.66818.67586</string>
+				<string>65538.65794.66050.66562.67586</string>
+				<string>65794.66306.66562.66818.67586</string>
+				<string>66050.66818.67586</string>
+				<string>65794.66050.66306.67586</string>
+				<string>66050.66306.66562.67586</string>
+				<string>65538.65794.66818.67586</string>
+				<string>65538.65794.67586</string>
+				<string>65538.66306.66562.67586</string>
+				<string>65538.66562.67586</string>
+				<string>65794.66050.66306.66562.67586</string>
+				<string>65538.65794.66050.66306.66562.66818.67586</string>
+				<string>65538.65794.66050.66306.67586</string>
+				<string>65538.66050.66306.67586</string>
+				<string>65538.66050.67586</string>
+				<string>65538.65794.66050.66306.66818.67586</string>
+				<string>65794.66562.66818.67586</string>
+				<string>65538.65794.66306.67586</string>
+				<string>65538.66050.66818.67586</string>
+				<string>65794.66306.67586</string>
+				<string>65794.66562.67586</string>
+				<string>65538.65794.66562.67586</string>
+				<string>65794.66306.66818.67586</string>
+				<string>65538.66050.66562.67586</string>
+				<string>66050.66306.66562.66818.67586</string>
+				<string>65538.66306.66562.66818.67586</string>
+				<string>66050.66306.67586</string>
+				<string>65794.66050.66818.67586</string>
+				<string>66050.66562.66818.67586</string>
+				<string>65794.67586</string>
+				<string>66562.67586</string>
+				<string>65538.66050.66306.66562.67586</string>
+				<string>65538.65794.66306.66562.67586</string>
+				<string>66306.66562.67586</string>
+				<string>65538.65794.66050.66306.66562.67586</string>
+				<string>65794.66050.66306.66562.66818.67586</string>
+				<string>65794.66050.66562.66818.67586</string>
+				<string>65794.66050.66562.67586</string>
+				<string>65794.66562.66818.67586</string>
+				<string>65536</string>
+				<string>65539</string>
+				<string>65538.67074.67586</string>
+				<string>66306.67074.67586</string>
+				<string>65794.66562.66818.67074.67586</string>
+				<string>65538.66050.66306.67074.67586</string>
+				<string>65538.66050.67074.67586</string>
+				<string>67074.67586</string>
+				<string>67074</string>
+				<string>67330</string>
+				<string>67330.67586</string>
+				<string>66050.67074.67586</string>
+				<string>65794.67074.67586</string>
+				<string>65538.67074.67586</string>
+				<string>66306.67074.67586</string>
+				<string>66562.67074.67586</string>
+				<string>66050.67330.67586</string>
+				<string>65794.67330.67586</string>
+				<string>65538.67330.67586</string>
+				<string>66306.67330.67586</string>
+				<string>66562.67330.67586</string>
+				<string>66562.66818.67330.67586</string>
+				<string>65794.66050.67074.67586</string>
+				<string>65794.66050.66818.67074.67586</string>
+			</array>
 			<key>custom.braille.com.apple.scrod.braille.driver.optelec.voyager.44.SCRCUserDefaultsBrailleDisplayInputIdentifiers</key>
 			<array>
 				<string>66049</string>
@@ -1640,6 +1874,27 @@
 				<string>65794.66050.67074.67586</string>
 				<string>65794.66050.66818.67074.67586</string>
 			</array>
+			<key>custom.hotspots.SCRHotSpot-0</key>
+			<dict>
+				<key>Active</key>
+				<true/>
+				<key>AppKey</key>
+				<string>com.apple.garageband10</string>
+				<key>AppName</key>
+				<string>GarageBand</string>
+				<key>Description</key>
+				<string></string>
+				<key>Frame</key>
+				<data>
+				AAAAAABAd0AAAAAAANCCQAAAAAAAQHVAAAAAAACAbEA=
+				</data>
+				<key>IndexPath</key>
+				<string>[0.8.1.0.0]</string>
+				<key>Role</key>
+				<string>AXScrollArea</string>
+				<key>Type</key>
+				<string>scroll area</string>
+			</dict>
 			<key>custom.hotspots.SCRHotSpot-1</key>
 			<dict>
 				<key>Active</key>
@@ -1664,7 +1919,7 @@
 			<key>custom.hotspots.SCRHotSpot-4</key>
 			<dict>
 				<key>Active</key>
-				<false/>
+				<true/>
 				<key>AppKey</key>
 				<string>com.apple.garageband10</string>
 				<key>AppName</key>
@@ -1673,10 +1928,10 @@
 				<string>Library</string>
 				<key>Frame</key>
 				<data>
-				AAAAAAAAAAAAAAAAACB0QAAAAAAAEHRAAAAAAACgckA=
+				AAAAAAAAAAAAAAAAACB0QAAAAAAAMHdAAAAAAABwfUA=
 				</data>
 				<key>IndexPath</key>
-				<string>[1.6.0.0.1.3.0]</string>
+				<string>[0.6.0.0.1.3.0]</string>
 				<key>Role</key>
 				<string>AXBrowser</string>
 				<key>Type</key>
@@ -1685,7 +1940,7 @@
 			<key>custom.hotspots.SCRHotSpot-7</key>
 			<dict>
 				<key>Active</key>
-				<false/>
+				<true/>
 				<key>AppKey</key>
 				<string>com.apple.garageband10</string>
 				<key>AppName</key>
@@ -1694,7 +1949,7 @@
 				<string></string>
 				<key>Frame</key>
 				<data>
-				AAAAAAAgdEAAAAAAAEBfQAAAAAAAUHRAAAAAAAAgckA=
+				AAAAAABAd0AAAAAAAEBfQAAAAAAAUHRAAAAAAABge0A=
 				</data>
 				<key>IndexPath</key>
 				<string>[0.7.0.1.0]</string>
@@ -1911,26 +2166,6 @@
 				<key>SCRSubTextKey</key>
 				<string>SCRUserSubstitution.qty</string>
 			</dict>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0047</key>
-			<string>SCRWorkspace.doNothing</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0048</key>
-			<string>SCRWorkspace.doNothing</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_004a</key>
-			<string>Global.findPreviousHeading</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_004e</key>
-			<string>SCRWorkspace.doNothing</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0065</key>
-			<string>Global.interactUp</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0067</key>
-			<string>SCRWorkspace.doNothing</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0068</key>
-			<string>Global.interactLeft</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_0069</key>
-			<string>Global.interactRight</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_006a</key>
-			<string>Global.findNextHeading</string>
-			<key>custom.quicknav-singleletter.SCRQuickNavSingleLetterCommander_006e</key>
-			<string>Global.interactDown</string>
 			<key>custom.trackpads.SCRCTrackpadCommanderEnabled-144115188075855918</key>
 			<false/>
 			<key>custom.trackpads.SCRCTrackpadCommanderEnabled-144115188075855919</key>
