@@ -5,9 +5,9 @@
 	<key>ArchiveType</key>
 	<integer>1</integer>
 	<key>ArchiveVersion</key>
-	<string>815</string>
+	<string>816.1</string>
 	<key>ArchiveVersionOS</key>
-	<string>120100</string>
+	<string>120200</string>
 	<key>ArchiveVersionVO</key>
 	<integer>4</integer>
 	<key>export</key>
@@ -1320,6 +1320,29 @@
 					<integer>0</integer>
 				</dict>
 			</array>
+			<key>file:///Applications/Signal.app/Contents/Resources/app.asar/background.html</key>
+			<array>
+				<dict>
+					<key>ApplicationName</key>
+					<string>Signal</string>
+					<key>Rect</key>
+					<string>{{0, 80}, {320, 594}}</string>
+					<key>Role</key>
+					<string>AXTable</string>
+					<key>SCRElementDictionaryApplication</key>
+					<string>org.whispersystems.signal-desktop</string>
+					<key>SCRElementDictionaryDescription</key>
+					<string>Conversations</string>
+					<key>SCRElementDictionaryID</key>
+					<string>-1015003788.666529085.353405</string>
+					<key>SCRElementDictionaryImageURL</key>
+					<string>/var/folders/h9/schnzwfd6c11f2stybz7hc740000gn/T/voiceoverImageDictionaryImage.1644836285.png</string>
+					<key>SCRElementDictionaryInProgress</key>
+					<true/>
+					<key>SCRElementDictionaryURL</key>
+					<string>file:///Applications/Signal.app/Contents/Resources/app.asar/background.html</string>
+				</dict>
+			</array>
 		</dict>
 		<key>custom.webspots</key>
 		<dict>
@@ -1333,7 +1356,7 @@
 			<key>SCRBrailleSingleElementPerLineMode</key>
 			<true/>
 			<key>SCRCInvertedTCommanderCaptureEnabled</key>
-			<true/>
+			<false/>
 			<key>SCRCKeyboardCommanderEnabled</key>
 			<true/>
 			<key>SCRCTrackpadCommanderEnabled</key>
@@ -1346,12 +1369,16 @@
 			<real>3</real>
 			<key>SCRCUserDefaultsBrailleAutoAdvanceDuration</key>
 			<real>4</real>
+			<key>SCRCUserDefaultsBrailleAutomaticTranslationEnabled</key>
+			<false/>
 			<key>SCRCUserDefaultsBrailleContractionMode</key>
 			<integer>1</integer>
 			<key>SCRCUserDefaultsBrailleEightDotMode</key>
 			<false/>
 			<key>SCRCUserDefaultsBrailleInputMode</key>
 			<integer>1</integer>
+			<key>SCRCUserDefaultsBrailleKeyDebounceTimeout</key>
+			<real>0.5</real>
 			<key>SCRCUserDefaultsBrailleMasterStatusCellIndex</key>
 			<integer>-1</integer>
 			<key>SCRCUserDefaultsBrailleOutputMode</key>
@@ -1366,7 +1393,7 @@
 			<key>SCRCUserDefaultsBrailleTableIdentifier</key>
 			<string>com.apple.scrod.braille.table.liblouis.nl-nl</string>
 			<key>SCRCUserDefaultsBrailleWordWrapEnabled</key>
-			<true/>
+			<false/>
 			<key>SCRCUserDefaultsCursorTrackingEnabled</key>
 			<true/>
 			<key>SCRCUserDefaultsFastSearchEnabled</key>
@@ -1374,7 +1401,7 @@
 			<key>SCRCUserDefaultsHasPronunciations</key>
 			<true/>
 			<key>SCRCUserDefaultsImageCaptionLastAssetCatalogUpdateCheck</key>
-			<date>2022-02-08T08:41:21Z</date>
+			<date>2022-03-17T20:19:00Z</date>
 			<key>SCRCUserDefaultsMuteVoiceOver</key>
 			<false/>
 			<key>SCRCUserDefaultsSingleLetterQuickNavEnabled</key>
@@ -1382,12 +1409,43 @@
 			<key>SCRCUserDefaultsTextSearchHistory</key>
 			<array>
 				<string>disconnect</string>
-				<string>blue</string>
+				<string>acces</string>
+				<string>settings</string>
+				<string>setings</string>
+				<string>disconnect</string>
+				<string>close</string>
+				<string>dissconnect</string>
+				<string>disconnecdt</string>
+				<string>stop</string>
+				<string>###</string>
+				<string>go live</string>
+				<string>screen</string>
+				<string>##</string>
+				<string>share</string>
+				<string>code</string>
+				<string>clone</string>
+				<string>hang up</string>
+				<string>start voi</string>
+				<string>cancel</string>
+				<string>cancle</string>
+				<string>cancel</string>
 				<string>copy</string>
 				<string>share</string>
-				<string>share</string>
-				<string>disconnect</string>
+				<string>play</string>
+				<string>artist</string>
+				<string>album</string>
+				<string>count</string>
+				<string>count in</string>
+				<string>count int</string>
+				<string>silvan</string>
+				<string>commits</string>
+				<string>commits</string>
 				<string>112</string>
+				<string>share screen</string>
+				<string>repositories</string>
+				<string>hoofdstuk</string>
+				<string>question</string>
+				<string>blue</string>
 				<string>start</string>
 				<string>home</string>
 				<string>zeer</string>
@@ -1396,18 +1454,14 @@
 				<string>solve</string>
 				<string>new tab</string>
 				<string>solution</string>
-				<string>disconnect</string>
-				<string>go live</string>
 				<string>screens</string>
 				<string>share screen</string>
 				<string>hide reader</string>
 				<string>show reader</string>
 				<string>projects</string>
-				<string>screen</string>
 				<string>Share</string>
 				<string>Share Your Screen</string>
 				<string>Share your screen</string>
-				<string>stop</string>
 				<string>start</string>
 				<string>bach</string>
 				<string>bach</string>
@@ -1416,42 +1470,17 @@
 				<string>Start Voice</string>
 				<string>start voice</string>
 				<string>Silvan</string>
-				<string>silvan</string>
 				<string>stop stream</string>
 				<string>Screens</string>
-				<string>sscreen</string>
-				<string>streaming</string>
-				<string>Start streaming</string>
-				<string>stop streaming</string>
-				<string>vincy</string>
-				<string>lp</string>
-				<string>§</string>
-				<string>sempruijs</string>
-				<string>privacy</string>
-				<string>start voicecall</string>
-				<string>start voice call</string>
-				<string>beeeq</string>
-				<string>hh</string>
-				<string>messages</string>
-				<string>new messages</string>
-				<string>video</string>
-				<string>more video</string>
-				<string>i accept</string>
-				<string>sirwhere</string>
-				<string>sign in</string>
-				<string>hoofdstuk 4</string>
-				<string>hoofdstuk 4</string>
-				<string>Hoofdstuk 4</string>
-				<string>command</string>
-				<string>fast</string>
-				<string>close</string>
 			</array>
 			<key>SCRCUserDefaultsUnitOfMeasure</key>
 			<integer>1</integer>
 			<key>SCRCUserDefaultsUseImageCaption</key>
-			<false/>
+			<true/>
 			<key>SCRCUserDefaultsWebNavigationMethod</key>
 			<integer>0</integer>
+			<key>SCRCUserDefaultsWebPreventKeyboardDOMEventDispatch</key>
+			<true/>
 			<key>SCRCUserDefaultsWebRotorOrdering</key>
 			<array>
 				<dict>
@@ -1577,6 +1606,10 @@
 			</array>
 			<key>SCRCategories_SCRCategorySystemWide_SCRAudioOutputSelectorDeviceName</key>
 			<string>SCRAudioOutputSelectorDefaultOutput</string>
+			<key>SCRCategories_SCRCategorySystemWide_SCRLinkAttributeDescriptionLevel</key>
+			<string>SCRLinkAttributeDescUseSound</string>
+			<key>SCRCategories_SCRCategorySystemWide_SCRMisspelledWordsDescriptionLevel</key>
+			<string>SCRMisspelledWordsDescToneAtChanges</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRNumberMode</key>
 			<string>SCRNumberModeWholeWords</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRPositionalAudioEnabled</key>
@@ -1584,21 +1617,21 @@
 			<key>SCRCategories_SCRCategorySystemWide_SCRPunctuationVerbosenessLevel</key>
 			<string>SCRPunctuationVerbosenessLevel1</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSoundComponentSettings_SCRDisableSound</key>
-			<true/>
+			<false/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechComponentSettings_SCRDisableSpeech</key>
 			<false/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRIntonationAsPercent</key>
-			<real>55</real>
+			<real>70</real>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRPitchAsPercent</key>
-			<real>50</real>
+			<real>45</real>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRRateAsPercent</key>
-			<real>60</real>
+			<real>75</real>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
-			<string>com.apple.speech.synthesis.voice.Alex.compact</string>
+			<string>com.apple.speech.synthesis.voice.Fred</string>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRVoiceUseCustomizedVoiceSettings</key>
 			<true/>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_default_SCRSpeechComponentSettings_SCRVolumeAsPercent</key>
-			<real>45</real>
+			<real>75</real>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_nl_SCRSpeechComponentSettings_SCRRateAsDefaultLanguageVoiceRateRatio</key>
 			<real>1.1666666666666667</real>
 			<key>SCRCategories_SCRCategorySystemWide_SCRSpeechLanguages_nl_SCRSpeechComponentSettings_SCRVoiceIdentifier</key>
@@ -1620,7 +1653,7 @@
 			<key>SCRCursorTrackingDisabledWhileSelecting</key>
 			<false/>
 			<key>SCRDisplayBrailleEnabled</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>SCRDisplayTextEnabled</key>
 			<false/>
 			<key>SCREnableAppleScript</key>
@@ -1638,15 +1671,17 @@
 			<key>SCRShouldOutputVOInstructions</key>
 			<false/>
 			<key>SCRSpeechAttributeRotorLastRotor</key>
-			<integer>4</integer>
+			<integer>0</integer>
 			<key>SCRSpeechSettings_SCRCustomizedLanguageIDs</key>
 			<array>
 				<string>nl</string>
 			</array>
 			<key>SCRTypingEchoFeedback</key>
-			<string>SCRTypingEchoCharacters</string>
+			<string>SCRTypingEchoCharactersAndWords</string>
 			<key>SCRVerbosityRotorLastRotor</key>
 			<integer>0</integer>
+			<key>SCRVerbosity_ProgressIndicator_valueUpdate</key>
+			<string>SCRValueDescNone</string>
 			<key>SCRVerbosity_SCRBrailleVerbosityLevel</key>
 			<string>SCRVerbosityMedium</string>
 			<key>SCRVerbosity_SCRVerbosityLevel</key>
@@ -1659,6 +1694,8 @@
 			<integer>1</integer>
 			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.65537</key>
 			<string>SCRBraille.panLeft</string>
+			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.65538.66306.67586</key>
+			<string>SCRWorkspace.openApplications</string>
 			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.65793</key>
 			<string>SCRBraille.panRight</string>
 			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.66305</key>
@@ -1666,13 +1703,13 @@
 			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.66561</key>
 			<string>SCRBraille.panRight</string>
 			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.68353</key>
-			<string>Global.interactUp</string>
-			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.68609</key>
-			<string>Global.interactDown</string>
-			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.68865</key>
 			<string>Global.interactUpShift</string>
-			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.69121</key>
+			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.68609</key>
 			<string>Global.interactDownShift</string>
+			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.68865</key>
+			<string>Global.interactUp</string>
+			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.69121</key>
+			<string>Global.interactDown</string>
 			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.SCRCUserDefaultsBrailleDisplayInputIdentifiers</key>
 			<array>
 				<string>67329</string>
@@ -1765,6 +1802,7 @@
 				<string>unassigned-2</string>
 				<string>65794.66050.67074.67586</string>
 				<string>65794.66050.66818.67074.67586</string>
+				<string>65538.66306.67586</string>
 			</array>
 			<key>custom.braille.com.apple.scrod.braille.driver.freedomscientific.focus.2.40.blue.unassigned</key>
 			<string>SCRWorkspace.doNothing</string>
@@ -1944,6 +1982,25 @@
 				<string>65794.66050.67074.67586</string>
 				<string>65794.66050.66818.67074.67586</string>
 			</array>
+			<key>custom.hotspots.SCRHotSpot-0</key>
+			<dict>
+				<key>Active</key>
+				<true/>
+				<key>AppKey</key>
+				<string>com.hnc.Discord</string>
+				<key>AppName</key>
+				<string>Discord</string>
+				<key>Description</key>
+				<string></string>
+				<key>Frame</key>
+				<data>
+				AAAAAAAAAAAAAAAAAABEQAAAAAAAgFZAAAAAAADQg0A=
+				</data>
+				<key>Role</key>
+				<string>AXOutline</string>
+				<key>Type</key>
+				<string>table</string>
+			</dict>
 			<key>custom.hotspots.SCRHotSpot-1</key>
 			<dict>
 				<key>Active</key>
@@ -1953,20 +2010,17 @@
 				<key>AppName</key>
 				<string>Notes</string>
 				<key>Description</key>
-				<string>haaahhaoku brief
-
-794259813
-Tada! Het is je gelukt</string>
+				<string></string>
 				<key>Frame</key>
 				<data>
-				AAAAAAAAaUAAAAAAAABKQAAAAAAAyI1AAAAAAACQg0A=
+				AAAAAADQf0AAAAAAAIBKQAAAAAAAAChAAAAAAACAQEA=
 				</data>
 				<key>IndexPath</key>
 				<string>[0.0.3.0.1.0]</string>
 				<key>Role</key>
-				<string>AXTextArea</string>
+				<string>AXValueIndicator</string>
 				<key>Type</key>
-				<string>edit text</string>
+				<string>value indicator</string>
 			</dict>
 			<key>custom.hotspots.SCRHotSpot-4</key>
 			<dict>
